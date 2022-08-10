@@ -1,0 +1,81 @@
+{
+    "train":{
+        "description": "The settings of training only PNG",
+        "data_folder": "./data/2classify",
+        "image_folder": "./data/2classify/images",
+        "mask_folder": "./data/2classify/masks",
+
+        "epoch": 5,
+        "batchsize": 2,
+        "learning_rate": 0.1,
+        "n_channels": 1,
+        "n_classes": 3,
+        "validation_ratio":0.1,
+        "loss_weight": [0.1,0.4,0.5],
+
+        "augmentation": "True",
+
+        "resize": "False",
+        "image_height": 610,
+        "image_width": 480,
+
+        "label_to_value": {
+            "_background_": {
+                "0": [0,0,0]
+            },
+            "Label1":{
+                "1": [255,255,255]
+            },
+            "Label2": {
+                "2": [255,0,0]
+            }
+        }
+
+    },
+    "prediction": {
+        "description": "The settings of prediction",
+        "model_path": "model/CP45.pth",
+        "video": "video/data3.avi",
+        "output_path": "./output/",
+
+        "n_channels": 1,
+        "n_classes": 3,
+
+        "resize": "False",
+        "image_height": 200,
+        "image_width": 580,
+
+        "label_to_value": {
+            "_background_": {
+                "0": [0,0,0]
+            },
+            "Label1":{
+                "1": [255,255,255]
+            },
+            "Label2": {
+                "2": [255,0,0]
+            }
+        }
+    },
+    "change_label": {
+        "mask_folder": "./data/2classify/masks",
+        "save_folder": "./data/change_label/new_label/",
+        "oldLabel": {
+            "Background": {
+                "0": [0,0,0]
+            },
+            "Label":{
+                "1": [255,255,255]
+            }
+        },
+        "newLabel": {
+            "Background": {
+                "0": [0,0,0]
+            },
+            "Label":{
+                "1": [255,0,0]
+            }
+        }
+    }
+}
+

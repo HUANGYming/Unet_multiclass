@@ -1,0 +1,10 @@
+matplotlib==3.2.2
+numpy==1.19.2
+Pillow==8.2.0
+pytorch-gpu==1.10.2
+torchvision==0.4.2
+tensorboard==2.6.0
+future==0.18.2
+tqdm==4.59.0
+scikit-image==0.17.2
+torchio==0.18.76
