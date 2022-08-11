@@ -128,7 +128,7 @@ python train.py -e 20 -b 2 -l 0.1 -folder ./data/2classify
 
 ## V. Reference
 
-[1] vessel_net-main(Mingcong)
+[1] https://github.com/wpddmcmc
 
 [2] https://github.com/France1/unet-multiclass-pytorch
 
