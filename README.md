@@ -38,7 +38,7 @@
 
 ### 1. Vertical vessel
 
-![class2](https://yiminghku.oss-cn-hangzhou.aliyuncs.com/vertticalVessel.gif)
+![class2](https://github.com/HUANGYming/Unet_multiclass/blob/main/actions/vertticalVessel.gif)
 
 ### 2. Horizontal vessel
 
