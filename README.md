@@ -123,7 +123,7 @@ python train.py -e 20 -b 2 -l 0.1 -folder ./data/2classify
 |change_label       |       change colors of labels      |
 |||
 
-![](https://github.com/HUANGYming/Unet_multiclass/blob/main/actions/flowImage.png)
+![](https://github.com/HUANGYming/Unet_multiclass/blob/main/actions/flow2.png)
 
 
 
