@@ -31,7 +31,6 @@
 |Background|0.970|
 |Vertical|0.757|
 |Horizontal|0.786|
-|||
 
 
 
@@ -108,7 +107,6 @@ in which:
 |batch_size         |       2          |
 |learning_rate      |       0.1        |
 |folder             | ./data/2classify |
-|||
 
 1. Terminal
 ```
@@ -121,7 +119,7 @@ python train.py -e 20 -b 2 -l 0.1 -folder ./data/2classify
 |train              |       training parameters           |
 |prediction         |       prediction parameters         |
 |change_label       |       change colors of labels      |
-|||
+
 
 <img src="https://github.com/HUANGYming/Unet_multiclass/blob/main/actions/flow.png" height = "700" width = "700" />
 
