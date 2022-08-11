@@ -42,7 +42,7 @@
 
 ### 2. Horizontal vessel
 
-![Class1](https://yiminghku.oss-cn-hangzhou.aliyuncs.com/horizontalVessel.gif)
+![Class1](https://github.com/HUANGYming/Unet_multiclass/blob/main/actions/horizontalVessel.gif)
 
 ## II. Installation
 
