@@ -136,6 +136,5 @@ python train.py -e 20 -b 2 -l 0.1 -folder ./data/2classify
 
 ## VI. License
 
-HAUNGYIMING
-
+[MIT](LICENSE) © HUANGYiming
 
