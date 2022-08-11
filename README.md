@@ -94,7 +94,7 @@ in which:
 - `utils/` contains model parts and model related functions
 - `video/` contains the video that video_pre.py needs
 - `parameters.json` define all the parameters of the training and prediction
-- `README.md` contains Tensorboard summary files
+- `README.md` contains tutorial
 - `requirements.txt` contains the necessary packages
 - `train.py` is the main script for model training
 - `video_pre.py` is the main script for video prediction
